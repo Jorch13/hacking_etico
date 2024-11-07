@@ -15,11 +15,11 @@ class VulnerabilityScanner {
         $sqlResults = $sqlInjection->scan();
         
         // Escaneo de XSS
-        $xssScanner = new XSSScanner();
+        $xssScanner = new XSSDetection();
         $xssResults = $xssScanner->scan();
 
         // Escaneo de CSRF
-        $csrfScanner = new CSRFScanner();
+        $csrfScanner = new CSRFDetection();
         $csrfResults = $csrfScanner->scan();
 
         // Escaneo de Archivos expuestos

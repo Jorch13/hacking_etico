@@ -2,7 +2,7 @@
 require_once '../utils/http_request.php';
 require_once '../utils/logger.php';
 
-class XSSScanner {
+class XSSDetection {
     private $url;
 
     public function __construct($url) {
