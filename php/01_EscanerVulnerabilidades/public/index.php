@@ -1,8 +1,8 @@
 <?php
 // Incluir la configuración y los archivos necesarios
-require_once 'config/config.php';
-require_once 'core/scanner.php';  // Asegúrate de que la ruta sea correcta
-require_once 'utils/logger.php';   // Asegúrate de que la ruta sea correcta
+require_once '../config/config.php';
+require_once '../core/scanner.php';  // Asegúrate de que la ruta sea correcta
+require_once '../utils/logger.php';   // Asegúrate de que la ruta sea correcta
 
 session_start();  // Inicia la sesión para almacenar los resultados
 

@@ -1,0 +1,51 @@
+[2024-11-07 11:25:40] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-07 11:25:40] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-07 11:25:41] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-07 11:25:41] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-07 11:25:42] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-07 11:25:42] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-07 11:25:42] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-07 11:25:43] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-07 11:25:43] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-07 11:25:44] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-07 11:25:44] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-07 11:25:45] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-07 11:25:45] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-07 11:25:45] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-07 11:25:45] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-07 11:25:45] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-07 11:25:46] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-07 11:25:46] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-07 11:25:46] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-07 11:25:47] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-07 11:25:47] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-07 11:25:47] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-07 11:28:18] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-07 11:28:18] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-07 11:28:18] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-07 11:28:19] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-07 11:28:19] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-07 11:28:20] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-07 11:28:20] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-07 11:28:20] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-07 11:28:20] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-07 11:28:21] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-07 11:28:21] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-07 11:28:22] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-07 11:28:22] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-07 11:28:22] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-07 11:28:22] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-07 11:28:22] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-07 11:28:22] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-07 11:28:23] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-07 11:28:23] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-07 11:28:23] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-07 11:28:23] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-07 11:28:23] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-07 11:28:23] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-07 11:28:24] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-07 11:28:24] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-07 11:28:24] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-07 11:28:24] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-07 11:28:24] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-07 11:28:24] Directorio no expuesto: https://www.marca.com/database/

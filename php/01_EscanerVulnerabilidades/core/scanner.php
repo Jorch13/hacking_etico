@@ -1,10 +1,9 @@
 <?php
-require_once 'core/xss_detection.php';
-require_once 'core/sql_injection_detection.php';
-require_once 'core/csrf_detection.php';
-require_once 'core/directory_exposure.php';
-require_once 'core/file_exposure_detection.php';
-require_once 'utils/logger.php';
+require_once 'xss_detection.php';  // Si está en el mismo directorio
+require_once 'sql_injection.php';
+require_once 'csrf_detection.php';
+require_once 'directory_exposure.php';
+require_once '../utils/logger.php';
 
 class VulnerabilityScanner
 {
