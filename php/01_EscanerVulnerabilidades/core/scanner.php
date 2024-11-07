@@ -44,6 +44,12 @@ class VulnerabilityScanner
         if (empty($results)) {
             echo "<p>No se encontraron vulnerabilidades en este análisis.</p>";
         } else {
+            // Si $results es un solo resultado (un array asociativo), lo convertimos en un array
+            if (isset($results['url'])) {
+                $results = [$results]; // Convertimos el resultado en un array de un solo elemento
+            }
+
+            // Ahora podemos iterar sobre $results sin problemas
             foreach ($results as $result) {
                 echo "<p>Archivo/Directorio: {$result['url']} - Estado: {$result['status']}</p>";
             }
@@ -52,10 +58,13 @@ class VulnerabilityScanner
 }
 
 // Uso del escáner
+$url = null;
+$message = "<p>Por favor, proporciona una URL para escanear.</p>";
+
 if (isset($_GET['url'])) {
     $url = $_GET['url'];
     $scanner = new VulnerabilityScanner($url);
     $scanner->scan();
 } else {
-    echo "<p>Por favor, proporciona una URL para escanear.</p>";
+    $message = "<h2>Por favor, proporciona una URL para escanear.</h2>";
 }

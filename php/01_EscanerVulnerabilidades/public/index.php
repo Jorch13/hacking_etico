@@ -6,31 +6,51 @@ require_once '../utils/logger.php';   // Asegúrate de que la ruta sea correcta
 
 session_start();  // Inicia la sesión para almacenar los resultados
 
-// Verifica si se ha enviado el formulario de escaneo
+// Habilitar la visualización de errores
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Evitar cualquier salida antes de la redirección
+ob_start();
+
+// Depuración: Verificar si la sesión está vacía
+var_dump($_SESSION);
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['start_scan'])) {
-    // Verifica que la URL se haya proporcionado
     if (isset($_POST['url'])) {
         $url = $_POST['url'];
-
-        // Validar y sanitizar la URL
         $url = filter_var($url, FILTER_SANITIZE_URL);
 
+        // Depuración: Verificar que la URL es válida
+        var_dump($url);
+
         if (filter_var($url, FILTER_VALIDATE_URL)) {
-            // Crear el escáner y ejecutar el escaneo
+            // Crear el objeto de escaneo
             $scanner = new VulnerabilityScanner($url);
-            $_SESSION['scan_results'] = $scanner->scan();  // Guardar resultados en la sesión
+
+            // Depuración: Verificar el objeto del escáner
+            var_dump($scanner);
+
+            $_SESSION['scan_results'] = $scanner->scan();  // Guardar los resultados en la sesión
+
+            // Depuración: Verificar los resultados del escaneo
+            var_dump($_SESSION['scan_results']);
 
             Logger::log("Escaneo iniciado en: $url");
 
-            // Redirigir para mostrar los resultados del escaneo
-            header("Location: index.php");
-            exit;
+            // Redirigir después de un escaneo exitoso
+            
         } else {
             echo "<p>La URL proporcionada no es válida. Por favor ingrese una URL válida.</p>";
         }
     }
 }
+
+// Finaliza el buffering de salida
+ob_end_flush();
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -46,6 +66,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['start_scan'])) {
 
     <div class="container">
         <h1>Vulnerability Scanner</h1>
+        <?php
+        if (isset($message) && !empty($message)) {
+            echo $message;
+        }
+        ?>
 
         <!-- Formulario para ingresar la URL -->
         <form method="POST" action="index.php">
