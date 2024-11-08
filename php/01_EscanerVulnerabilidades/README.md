@@ -26,8 +26,16 @@ Contiene utilidades para el escáner, como la realización de solicitudes HTTP, 
 ### public/
 Contiene archivos de cara al usuario, útiles si deseas proporcionar una interfaz web simple o interactiva:
 - **index.php**: Archivo principal que inicializa el escáner; puede servir como una interfaz CLI o UI.
-- **style.css**: Archivo de estilos para la interfaz.
 - **app.js**: Script JavaScript para agregar funcionalidad interactiva, como el manejo de respuestas del escáner en tiempo real.
+
+#### layouts/
+Contiene archivos por si queremos añadir diferentes componentes a las vistas.
+
+#### styles/
+Contiene los archivos de los estilos para el proyecto
+- **style.css**: Archivo para estilos generales de la interfaz.
+- **result.css**: Archivo para estilos de los resultados.
+
 
 ### reports/
 Almacena los reportes de vulnerabilidades generados por el escáner:
