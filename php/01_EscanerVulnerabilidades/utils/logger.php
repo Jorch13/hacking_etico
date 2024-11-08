@@ -16,7 +16,7 @@ class Logger {
         file_put_contents(self::$logFile, $formattedMessage, FILE_APPEND);
 
         // Opcional: imprime el mensaje en la consola o salida web
-        echo $formattedMessage;
+        // echo $formattedMessage;
     }
 
     /**

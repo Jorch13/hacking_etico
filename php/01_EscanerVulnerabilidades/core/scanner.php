@@ -30,19 +30,22 @@ class VulnerabilityScanner
         $csrfResults = $csrfDetector->scan();
         $directoryExposureResults = $directoryExposureDetector->scan();
 
-        // Mostrar los resultados
-        $this->showResults($xssResults, 'XSS Detection');
-        $this->showResults($sqlInjectionResults, 'SQL Injection Detection');
-        $this->showResults($csrfResults, 'CSRF Detection');
-        $this->showResults($directoryExposureResults, 'Directory Exposure Detection');
+        // Retornar los resultados para ser usados externamente
+        return [
+            'xssResults' => $xssResults,
+            'sqlInjectionResults' => $sqlInjectionResults,
+            'csrfResults' => $csrfResults,
+            'directoryExposureResults' => $directoryExposureResults
+        ];
     }
 
+    // Método privado para generar el HTML
     private function showResults($results, $title)
     {
-        echo "<h2>$title</h2>";
+        $output = "<h2>$title</h2>";
 
         if (empty($results)) {
-            echo "<p>No se encontraron vulnerabilidades en este análisis.</p>";
+            $output .= "<p>No se encontraron vulnerabilidades en este análisis.</p>";
         } else {
             // Si $results es un solo resultado (un array asociativo), lo convertimos en un array
             if (isset($results['url'])) {
@@ -51,20 +54,21 @@ class VulnerabilityScanner
 
             // Ahora podemos iterar sobre $results sin problemas
             foreach ($results as $result) {
-                echo "<p>Archivo/Directorio: {$result['url']} - Estado: {$result['status']}</p>";
+                $output .= "<p>Archivo/Directorio: {$result['url']} - Estado: {$result['status']}</p>";
             }
         }
+
+        return $output;  // Devolvemos el HTML generado
     }
-}
 
-// Uso del escáner
-$url = null;
-$message = "<p>Por favor, proporciona una URL para escanear.</p>";
-
-if (isset($_GET['url'])) {
-    $url = $_GET['url'];
-    $scanner = new VulnerabilityScanner($url);
-    $scanner->scan();
-} else {
-    $message = "<h2>Por favor, proporciona una URL para escanear.</h2>";
+    // Método público para obtener los resultados en formato HTML
+    public function getResultsHTML($results)
+    {
+        $html = '';
+        $html .= $this->showResults($results['xssResults'], 'XSS Detection');
+        $html .= $this->showResults($results['sqlInjectionResults'], 'SQL Injection Detection');
+        $html .= $this->showResults($results['csrfResults'], 'CSRF Detection');
+        $html .= $this->showResults($results['directoryExposureResults'], 'Directory Exposure Detection');
+        return $html;
+    }
 }

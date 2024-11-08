@@ -1,0 +1,144 @@
+/* style.css */
+
+/* Estilos generales */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  color: #4a4a4a;
+  line-height: 1.6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.start-scan-button {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  margin: 20px auto;
+  padding: 12px 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-scan-button:hover {
+  background-color: #0069d9;
+  transform: translateY(-2px);
+}
+
+.start-scan-button:active {
+  transform: translateY(0);
+}
+
+/* Tabla de resultados */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+table th,
+table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table th {
+  background-color: #f3f6f9;
+  font-weight: 600;
+  color: #555;
+}
+
+table tr:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+table tr:hover {
+  background-color: #eef2f7;
+  transition: background-color 0.2s ease;
+}
+
+a {
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Formulario */
+form label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+form input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Ajuste de estilos de enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

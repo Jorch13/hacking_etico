@@ -58,3 +58,866 @@
 [2024-11-07 12:52:40] Error al obtener la URL: https://www.marca.com/database/
 [2024-11-07 12:52:40] Directorio no expuesto: https://www.marca.com/database/
 [2024-11-07 12:52:40] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:04:04] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:04:04] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:04:04] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:04:05] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:04:05] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:04:06] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:04:06] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:04:06] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:04:07] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:04:07] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:04:07] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:04:08] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:04:08] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:04:08] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:04:08] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:04:08] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:04:08] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:04:09] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:04:09] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:04:09] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:04:09] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:04:10] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:04:10] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:04:10] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:04:10] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:04:10] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:04:10] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:04:10] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:04:10] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:04:10] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:10:20] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:10:20] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:10:20] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:10:21] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:10:21] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:10:22] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:10:22] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:10:22] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:10:23] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:10:23] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:10:24] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:10:24] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:10:24] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:10:24] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:10:24] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:10:25] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:10:25] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:10:25] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:10:25] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:10:25] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:10:25] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:10:26] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:10:26] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:10:26] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:10:26] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:10:26] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:10:27] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:10:27] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:10:27] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:10:27] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:10:54] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:10:54] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:10:54] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:10:55] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:10:55] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:10:55] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:10:55] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:10:56] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:10:56] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:10:56] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:10:57] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:10:57] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:10:57] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:10:57] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:10:57] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:10:58] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:10:58] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:10:58] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:10:58] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:10:58] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:10:58] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:10:58] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:10:58] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:10:59] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:10:59] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:10:59] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:10:59] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:10:59] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:10:59] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:10:59] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:12:38] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:12:38] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:12:39] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:12:39] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:12:39] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:12:40] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:12:40] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:12:40] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:12:41] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:12:41] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:12:42] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:12:42] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:12:42] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:12:43] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:12:43] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:12:43] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:12:43] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:12:43] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:12:43] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:12:44] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:12:44] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:12:44] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:12:44] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:12:44] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:12:44] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:12:45] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:12:45] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:12:45] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:12:45] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:12:45] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:12:59] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:12:59] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:13:00] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:13:00] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:13:00] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:13:01] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:13:01] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:13:01] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:13:02] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:13:02] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:13:02] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:13:03] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:13:03] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:13:03] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:13:03] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:13:03] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:13:03] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:13:04] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:13:04] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:13:04] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:13:04] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:13:04] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:13:04] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:13:04] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:13:04] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:13:05] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:13:05] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:13:05] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:13:05] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:13:05] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:23:40] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:23:40] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:23:41] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:23:41] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:23:41] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:23:42] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:23:42] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:23:42] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:23:43] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:23:43] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:23:44] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:23:44] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:23:44] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:23:44] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:23:44] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:23:45] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:23:45] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:23:45] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:23:45] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:23:45] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:23:45] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:23:46] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:23:46] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:23:46] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:23:46] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:23:46] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:23:46] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:23:47] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:23:47] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:23:47] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:25:01] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:25:01] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:25:02] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:25:02] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:25:03] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:25:03] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:25:03] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:25:03] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:25:04] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:25:04] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:25:04] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:25:05] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:25:05] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:25:05] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:25:05] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:25:05] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:25:05] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:25:06] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:25:06] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:25:06] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:25:06] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:25:06] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:25:06] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:25:07] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:25:07] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:25:07] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:25:07] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:25:07] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:25:07] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:25:07] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:25:53] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:25:53] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:25:54] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:25:54] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:25:54] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:25:55] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:25:55] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:25:55] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:25:55] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:25:56] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:25:56] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:25:56] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:25:56] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:25:57] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:25:57] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:25:57] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:25:57] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:25:57] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:25:57] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:25:57] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:25:57] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:25:58] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:25:58] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:25:58] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:25:58] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:25:58] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:25:58] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:25:58] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:25:58] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:25:58] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:26:30] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:26:30] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:26:30] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:26:31] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:26:31] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:26:31] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:26:31] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:26:32] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:26:32] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:26:32] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:26:33] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:26:33] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:26:33] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:26:33] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:26:33] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:26:33] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:26:33] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:26:34] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:26:34] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:26:34] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:26:34] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:26:34] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:26:34] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:26:34] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:26:34] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:26:35] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:26:35] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:26:35] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:26:35] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:26:35] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:30:03] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:30:03] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:30:03] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:30:04] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:30:04] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:30:05] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:30:05] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:30:05] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:30:05] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:30:06] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:30:06] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:30:07] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:30:07] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:30:07] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:30:07] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:30:07] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:30:07] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:30:08] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:30:08] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:30:08] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:30:08] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:30:08] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:30:08] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:30:09] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:30:09] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:30:09] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:30:09] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:30:09] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:30:09] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:30:09] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:32:59] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:32:59] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:32:59] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:33:00] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:33:00] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:33:01] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:33:01] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:33:01] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:33:02] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:33:02] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:33:02] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:33:03] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:33:03] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:33:03] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:33:03] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:33:04] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:33:04] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:33:04] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:33:04] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:33:04] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:33:04] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:33:05] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:33:05] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:33:05] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:33:05] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:33:05] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:33:05] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:33:06] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:33:06] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:33:06] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:45:15] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:45:15] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:45:15] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:45:16] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:45:16] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:45:16] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:45:16] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:45:17] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:45:17] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:45:18] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:45:18] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:45:19] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:45:19] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:45:19] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:45:19] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:45:19] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:45:19] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:45:20] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:45:20] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:45:20] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:45:20] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:45:20] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:45:20] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:45:21] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:45:21] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:45:21] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:45:21] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:45:21] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:45:21] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:45:21] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:47:11] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:47:11] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:47:12] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:47:12] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:47:12] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:47:13] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:47:13] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:47:13] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:47:13] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:47:14] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:47:14] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:47:15] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:47:15] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:47:15] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:47:15] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:47:15] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:47:15] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:47:15] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:47:15] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:47:16] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:47:16] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:47:16] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:47:16] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:47:16] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:47:16] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:47:17] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:47:17] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:47:17] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:47:17] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:47:17] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:54:27] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:54:27] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:54:27] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:54:28] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:54:28] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:54:29] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:54:29] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:54:29] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:54:30] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:54:30] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:54:30] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:54:31] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:54:31] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:54:31] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:54:31] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:54:32] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:54:32] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:54:32] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:54:32] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:54:32] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:54:32] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:54:32] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:54:32] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:54:33] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:54:33] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:54:33] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:54:33] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:54:33] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:54:33] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:54:33] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:58:01] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:58:01] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:58:01] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:58:02] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:58:02] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:58:03] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:58:03] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:58:03] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:58:04] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:58:04] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:58:05] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:58:05] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:58:05] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:58:06] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:58:06] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:58:06] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:58:06] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:58:06] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:58:06] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:58:07] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:58:07] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:58:07] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:58:07] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:58:07] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:58:07] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:58:08] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:58:08] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:58:08] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:58:08] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:58:08] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 09:59:49] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 09:59:49] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 09:59:49] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 09:59:49] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 09:59:50] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 09:59:50] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 09:59:50] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 09:59:50] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 09:59:51] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 09:59:51] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 09:59:51] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 09:59:52] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 09:59:52] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 09:59:52] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 09:59:52] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 09:59:52] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 09:59:52] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 09:59:53] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 09:59:53] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 09:59:53] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 09:59:53] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 09:59:53] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 09:59:53] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 09:59:54] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 09:59:54] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 09:59:54] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 09:59:54] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 09:59:54] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 09:59:54] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 09:59:54] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:00:43] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:00:43] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:00:44] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:00:44] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:00:44] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:00:45] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:00:45] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:00:45] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:00:46] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:00:46] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:00:46] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:00:47] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:00:47] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:00:47] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:00:47] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:00:47] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:00:47] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:00:48] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:00:48] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:00:48] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:00:48] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:00:48] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:00:48] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:00:48] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:00:48] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:00:48] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:00:48] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:00:49] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:00:49] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:00:49] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:03:43] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:03:43] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:03:44] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:03:44] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:03:45] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:03:45] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:03:45] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:03:46] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:03:46] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:03:47] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:03:47] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:03:47] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:03:47] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:03:48] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:03:48] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:03:48] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:03:48] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:03:48] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:03:48] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:03:49] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:03:49] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:03:49] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:03:49] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:03:49] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:03:49] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:03:50] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:03:50] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:03:50] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:03:50] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:03:50] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:07:14] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:07:14] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:07:15] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:07:15] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:07:16] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:07:16] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:07:16] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:07:17] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:07:17] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:07:18] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:07:18] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:07:19] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:07:19] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:07:19] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:07:19] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:07:19] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:07:19] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:07:20] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:07:20] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:07:20] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:07:20] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:07:20] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:07:20] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:07:21] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:07:21] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:07:21] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:07:21] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:07:21] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:07:21] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:07:21] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:10:04] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:10:04] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:10:06] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:10:07] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:10:12] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:10:15] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:10:15] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:10:17] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:10:18] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:10:19] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:10:20] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:10:21] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:10:21] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:10:21] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:10:21] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:10:21] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:10:21] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:10:22] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:10:22] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:10:22] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:10:22] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:10:23] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:10:23] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:10:23] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:10:23] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:10:23] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:10:23] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:10:24] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:10:24] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:10:24] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:12:12] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:12:12] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:12:12] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:12:13] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:12:13] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:12:13] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:12:13] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:12:14] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:12:14] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:12:14] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:12:15] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:12:15] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:12:15] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:12:15] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:12:15] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:12:16] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:12:16] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:12:16] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:12:16] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:12:16] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:12:16] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:12:17] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:12:17] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:12:17] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:12:17] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:12:17] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:12:17] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:12:18] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:12:18] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:12:18] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:14:09] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:14:09] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:14:09] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:14:10] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:14:10] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:14:10] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:14:10] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:14:11] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:14:11] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:14:11] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:14:12] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:14:12] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:14:12] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:14:12] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:14:12] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:14:13] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:14:13] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:14:13] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:14:13] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:14:13] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:14:13] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:14:14] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:14:14] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:14:14] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:14:14] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:14:14] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:14:14] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:14:15] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:14:15] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:14:15] Escaneo iniciado en: https://www.marca.com/
+[2024-11-08 10:15:58] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:15:58] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:15:58] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:15:59] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:15:59] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:15:59] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:15:59] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:16:01] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:16:01] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:16:01] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:16:02] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:16:02] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:16:02] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:16:02] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:16:02] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:16:03] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:16:03] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:16:03] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:16:03] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:16:03] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:16:03] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:16:04] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:16:04] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:16:04] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:16:04] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:16:04] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:16:04] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:16:05] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:16:05] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:16:34] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:16:34] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:16:34] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:16:35] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:16:35] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:16:35] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:16:35] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:16:36] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:16:36] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:16:37] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:16:37] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:16:37] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:16:37] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:16:38] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:16:38] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:16:38] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:16:38] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:16:38] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:16:38] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:16:38] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:16:38] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:16:39] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:16:39] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:16:39] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:16:39] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:16:39] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:16:39] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:16:39] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:16:39] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:18:14] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:18:14] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:18:14] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:18:14] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:18:15] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:18:15] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:18:15] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:18:16] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:18:16] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:18:17] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:18:17] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:18:18] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:18:18] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:18:18] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:18:18] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:18:19] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:18:19] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:18:19] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:18:19] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:18:19] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:18:19] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:18:19] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:18:19] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:18:20] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:18:20] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:18:20] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:18:20] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:18:20] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:18:20] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:18:52] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:18:52] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:18:52] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:18:52] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:18:53] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:18:53] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:18:53] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:18:53] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:18:54] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:18:54] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:18:55] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:18:55] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:18:55] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:18:55] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:18:55] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:18:56] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:18:56] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:18:56] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:18:56] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:18:56] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:18:56] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:18:56] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:18:56] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:18:56] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:18:56] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:18:57] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:18:57] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:18:57] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:18:57] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:27:32] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:27:32] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:27:33] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:27:33] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:27:34] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:27:34] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:27:34] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:27:35] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:27:35] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:27:35] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:27:36] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:27:36] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:27:36] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:27:37] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:27:37] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:27:37] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:27:37] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:27:37] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:27:37] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:27:38] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:27:38] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:27:38] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:27:38] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:27:38] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:27:38] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:27:39] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:27:39] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:27:39] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:27:39] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:28:26] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:28:26] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:28:27] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:28:27] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:28:27] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:28:28] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:28:28] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:28:28] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:28:28] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:28:29] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:28:29] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:28:29] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:28:29] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:28:30] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:28:30] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:28:30] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:28:30] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:28:30] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:28:30] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:28:30] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:28:30] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:28:30] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:28:30] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:28:31] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:28:31] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:28:31] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:28:31] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:28:31] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:28:31] Directorio no expuesto: https://www.marca.com/database/
+[2024-11-08 10:28:44] Iniciando escaneo de vulnerabilidades en: https://www.marca.com
+[2024-11-08 10:28:44] Iniciando escaneo de XSS en: https://www.marca.com
+[2024-11-08 10:28:44] Sin vulnerabilidad detectada para el payload: <script>alert("XSS")</script>
+[2024-11-08 10:28:44] Sin vulnerabilidad detectada para el payload: <img src=x onerror=alert("XSS")>
+[2024-11-08 10:28:45] Sin vulnerabilidad detectada para el payload: "><script>alert("XSS")</script>
+[2024-11-08 10:28:45] Sin vulnerabilidad detectada para el payload: <svg onload=alert("XSS")>
+[2024-11-08 10:28:45] Iniciando escaneo de SQL Injection en: https://www.marca.com
+[2024-11-08 10:28:45] Sin vulnerabilidad detectada para el patrón: ' OR '1'='1
+[2024-11-08 10:28:46] Sin vulnerabilidad detectada para el patrón: ' OR 'a'='a
+[2024-11-08 10:28:46] Sin vulnerabilidad detectada para el patrón: '; DROP TABLE users;
+[2024-11-08 10:28:46] Sin vulnerabilidad detectada para el patrón: ' UNION SELECT null, version() --
+[2024-11-08 10:28:47] Sin vulnerabilidad detectada para el patrón: ' OR 1=1 --
+[2024-11-08 10:28:47] Iniciando escaneo de CSRF en: https://www.marca.com
+[2024-11-08 10:28:47] No se detectó protección CSRF en: https://www.marca.com
+[2024-11-08 10:28:47] Iniciando escaneo de directorios expuestos en: https://www.marca.com/
+[2024-11-08 10:28:47] Error al obtener la URL: https://www.marca.com/.git/
+[2024-11-08 10:28:47] Directorio no expuesto: https://www.marca.com/.git/
+[2024-11-08 10:28:48] Error al obtener la URL: https://www.marca.com/backup/
+[2024-11-08 10:28:48] Directorio no expuesto: https://www.marca.com/backup/
+[2024-11-08 10:28:48] Error al obtener la URL: https://www.marca.com/uploads/
+[2024-11-08 10:28:48] Directorio no expuesto: https://www.marca.com/uploads/
+[2024-11-08 10:28:48] Error al obtener la URL: https://www.marca.com/config/
+[2024-11-08 10:28:48] Directorio no expuesto: https://www.marca.com/config/
+[2024-11-08 10:28:48] Error al obtener la URL: https://www.marca.com/admin/
+[2024-11-08 10:28:48] Directorio no expuesto: https://www.marca.com/admin/
+[2024-11-08 10:28:49] Error al obtener la URL: https://www.marca.com/logs/
+[2024-11-08 10:28:49] Directorio no expuesto: https://www.marca.com/logs/
+[2024-11-08 10:28:49] Error al obtener la URL: https://www.marca.com/database/
+[2024-11-08 10:28:49] Directorio no expuesto: https://www.marca.com/database/

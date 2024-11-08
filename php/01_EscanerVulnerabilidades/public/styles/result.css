@@ -1,0 +1,45 @@
+/* Estilo para la sección de resultados */
+.result-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Título de los resultados */
+.result-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada resultado */
+.result-container p {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    border-left: 5px solid #28a745;  /* Color verde para indicar éxito */
+    transition: all 0.3s ease;
+}
+
+/* Estilo cuando el estado es "error" */
+.result-container p.error {
+    border-left-color: #dc3545;  /* Rojo para indicar error */
+}
+
+/* Estilo al pasar el mouse por encima de los resultados */
+.result-container p:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-3px);
+}
+
+/* Mejorar la legibilidad del estado */
+.result-container p span {
+    font-weight: bold;
+    color: #007bff; /* Color azul para el estado */
+}
