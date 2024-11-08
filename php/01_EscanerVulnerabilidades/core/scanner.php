@@ -30,6 +30,14 @@ class VulnerabilityScanner
         $csrfResults = $csrfDetector->scan();
         $directoryExposureResults = $directoryExposureDetector->scan();
 
+        // Guardar el reporte en un archivo HTML
+        $this->saveReport([
+            'xssResults' => $xssResults,
+            'sqlInjectionResults' => $sqlInjectionResults,
+            'csrfResults' => $csrfResults,
+            'directoryExposureResults' => $directoryExposureResults
+        ]);
+
         // Retornar los resultados para ser usados externamente
         return [
             'xssResults' => $xssResults,
@@ -70,5 +78,20 @@ class VulnerabilityScanner
         $html .= $this->showResults($results['csrfResults'], 'CSRF Detection');
         $html .= $this->showResults($results['directoryExposureResults'], 'Directory Exposure Detection');
         return $html;
+    }
+
+    // Método para guardar los resultados del escaneo en un archivo HTML
+    private function saveReport($scanResults)
+    {
+        // Generar el contenido HTML del reporte
+        $reportHTML = $this->getResultsHTML($scanResults);
+
+        // Determinar el nombre del archivo para el reporte
+        $reportFilename = '../reports/report_' . time() . '.html';
+
+        // Guardar el reporte en el archivo
+        file_put_contents($reportFilename, $reportHTML);
+
+        Logger::log("Reporte guardado en: $reportFilename");
     }
 }
