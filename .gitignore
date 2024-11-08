@@ -3,7 +3,7 @@
 .vscode/
 node_modules/
 composer.phar
-
+.gitignore
 # Ignorar archivos que contengan información confidencial
 proyectos.txt
 
