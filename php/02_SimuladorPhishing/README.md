@@ -1,6 +1,6 @@
 # Proyecto de Simulador de Phishing
 
-##Descripción
+## Descripción
 
 Este proyecto es un simulador de ataque de phishing desarrollado en PHP y JavaScript. **El propósito es educar y concienciar sobre las técnicas de ingeniería social y los riesgos de los ataques de phishing.** El simulador incluye un formulario de inicio de sesión falso y una página de advertencia que muestra la naturaleza simulada del proyecto.
 
