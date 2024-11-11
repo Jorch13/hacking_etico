@@ -5,6 +5,6 @@ namespace App\Controllers;
 
 class WarningController {
     public function showWarning() {
-        include '../app/Views/warning.view.php';
+        include '../app/Views/warningView.php';
     }
 }

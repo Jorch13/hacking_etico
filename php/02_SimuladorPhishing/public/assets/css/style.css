@@ -1,7 +1,9 @@
-/* styles.css - Estilos básicos para la página falsa y la advertencia */
+/* styles.css - Estilos actualizados con un diseño oscuro y neón azul */
+
+/* Fondo oscuro */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #070303;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,13 +12,8 @@ body {
     justify-content: center;
     height: 100vh;
 }
-.container {
-    max-width: 300px;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
+
+/* Estilo de botón */
 button {
     background-color: #4CAF50;
     color: white;
@@ -25,4 +22,101 @@ button {
     width: 100%;
     border-radius: 3px;
     cursor: pointer;
+}
+
+/* Contenedor centralizado */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #070303; /* Fondo oscuro */
+    padding: 20px;
+}
+
+/* Caja de login con estilo neón */
+.login-box {
+    max-width: 350px;
+    width: 100%;
+    background: #1a1a1a; /* Fondo oscuro para la caja */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 2px solid #00f2ff; /* Borde neón azul */
+    transition: all 0.3s ease;
+}
+
+/* Efecto de hover sobre el borde */
+.login-box:hover {
+    box-shadow: 0 4px 20px rgba(0, 242, 255, 0.6);
+}
+
+/* Título con color brillante */
+.login-box h2 {
+    margin-bottom: 1.5rem;
+    color: #00f2ff; /* Azul neón */
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Estilo del grupo de formulario */
+.form-group {
+    margin-right: 20px;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/* Estilo del label */
+.form-group label {
+    display: block;
+    color: #d1d1d1; /* Gris claro */
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para los inputs */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #555; /* Borde oscuro */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #222; /* Fondo oscuro en los inputs */
+    color: #fff; /* Texto blanco */
+    transition: all 0.3s ease;
+}
+
+/* Efecto de foco para inputs */
+.form-group input:focus {
+    border-color: #00f2ff; /* Azul neón */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 242, 255, 0.7); /* Efecto de neón */
+}
+
+/* Botón de envío con neón */
+.btn-submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #00f2ff; /* Azul neón */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover en el botón */
+.btn-submit:hover {
+    background-color: #008c8c; /* Oscuro al pasar el ratón */
+}
+
+/* Nota con color tenue */
+.note {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #888888;
 }
