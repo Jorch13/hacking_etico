@@ -15,3 +15,4 @@ phishing-simulator/
 ├── config/          # Archivos de configuración de la aplicación
 └── storage/         # Almacenamiento de credenciales capturadas
 ```
+
