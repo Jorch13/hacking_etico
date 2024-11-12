@@ -1,0 +1,24 @@
+{
+    "name": "citysec",
+    "version": "1.0.0",
+    "description": "Juego de gestión de recursos con ciberseguridad",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js",
+      "test": "mocha tests"
+    },
+    "dependencies": {
+      "express": "^4.17.3",
+      "mongoose": "^5.10.9",
+      "jsonwebtoken": "^8.5.1",
+      "crypto-js": "^3.1.9-1",
+      "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+      "mocha": "^8.3.2",
+      "chai": "^4.3.4"
+    },
+    "author": "Tu Nombre",
+    "license": "ISC"
+  }
+  

@@ -4,6 +4,7 @@
 node_modules/
 composer.phar
 .gitignore
+.env
 # Ignorar archivos que contengan información confidencial
 proyectos.txt
 
