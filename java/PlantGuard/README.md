@@ -58,7 +58,7 @@ The project documentation file (this one), providing an overview of the project,
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/plantguard.git
+   git clone https://github.com/Jorch13/hacking_etico.git
    cd plantguard
    ```
 
