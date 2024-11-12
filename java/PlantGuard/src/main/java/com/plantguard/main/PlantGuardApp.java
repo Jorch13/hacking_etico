@@ -2,12 +2,16 @@ package main.java.com.plantguard.main;
 
 import main.java.com.plantguard.models.Plant;
 import main.java.com.plantguard.services.PlantService;
-import main.java.com.plantguard.security.Authentication;
-import main.java.com.plantguard.audit.AuditLog; // Importa la clase AuditLog
+import main.java.com.plantguard.services.UserService; // Importar la clase UserService
+import main.java.com.plantguard.audit.AuditLog; // Importar la clase AuditLog
+import java.security.NoSuchAlgorithmException;
 
 public class PlantGuardApp {
     public static void main(String[] args) {
-        System.out.println("PlantGuard: Iniciando aplicación...");
+        System.out.println("\n=== PlantGuard: Iniciando aplicación ===\n");
+
+        // Log de auditoría - Inicio de la aplicación
+        AuditLog.logEvent("Aplicación iniciada.");
 
         // Inicialización del servicio de plantas
         PlantService plantService = new PlantService();
@@ -24,19 +28,27 @@ public class PlantGuardApp {
         AuditLog.logEvent("Planta añadida: " + plant1.getScientificName());
         AuditLog.logEvent("Planta añadida: " + plant2.getScientificName());
 
-        // Autenticación de prueba
-        Authentication auth = new Authentication();
-        boolean isAuthenticated = auth.authenticate("admin", "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8"); // Intento de
-                                                                                                          // autenticación
+        // Inicializar UserService para gestionar usuarios
+        UserService userService = new UserService();
 
-        if (isAuthenticated) {
-            System.out.println("Usuario autenticado exitosamente.");
-            // Log de auditoría - Registro de evento de autenticación
-            AuditLog.logEvent("Usuario autenticado: admin");
-        } else {
-            System.out.println("Autenticación fallida.");
-            // Log de auditoría - Registro de fallo en autenticación
-            AuditLog.logEvent("Fallo en autenticación: admin");
+        try {
+            // Agregar un usuario de prueba
+            userService.addUser("admin", "password");
+
+            // Intentar autenticar al usuario
+            boolean isAuthenticated = userService.authenticate("admin", "password"); // Intento de autenticación
+
+            if (isAuthenticated) {
+                System.out.println("\n*** Usuario autenticado exitosamente ***\n");
+                // Log de auditoría - Registro de evento de autenticación
+                AuditLog.logEvent("Usuario autenticado: admin");
+            } else {
+                System.out.println("\n*** Autenticación fallida ***\n");
+                // Log de auditoría - Registro de fallo en autenticación
+                AuditLog.logEvent("Fallo en autenticación: admin");
+            }
+        } catch (NoSuchAlgorithmException e) {
+            System.out.println("\n!!! Error en la encriptación de la contraseña: " + e.getMessage() + " !!!\n");
         }
 
         // Listar todas las plantas
@@ -44,7 +56,7 @@ public class PlantGuardApp {
             System.out.println(plant);
         }
 
-        System.out.println("PlantGuard: Finalizando aplicación.");
+        System.out.println("\n=== PlantGuard: Finalizando aplicación ===\n");
 
         // Log de auditoría - Finalización de la aplicación
         AuditLog.logEvent("Aplicación finalizada.");
