@@ -1,0 +1,12 @@
+2024-11-12 10:30:13 - Planta añadida: Quercus robur
+2024-11-12 10:30:13 - Planta añadida: Pinus sylvestris
+2024-11-12 10:30:13 - Usuario autenticado: admin
+2024-11-12 10:30:13 - Aplicación finalizada.
+2024-11-12 10:30:58 - Planta añadida: Quercus robur
+2024-11-12 10:30:58 - Planta añadida: Pinus sylvestris
+2024-11-12 10:30:58 - Usuario autenticado: admin
+2024-11-12 10:30:58 - Aplicación finalizada.
+2024-11-12 10:31:06 - Planta añadida: Quercus robur
+2024-11-12 10:31:06 - Planta añadida: Pinus sylvestris
+2024-11-12 10:31:06 - Usuario autenticado: admin
+2024-11-12 10:31:06 - Aplicación finalizada.
